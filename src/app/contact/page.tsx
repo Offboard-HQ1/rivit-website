@@ -1,6 +1,7 @@
 import { siteConfig } from "@/lib/constants";
 import { Container } from "@/components/ui/Container";
 import { PageHeader } from "@/components/ui/PageHeader";
+import { ContactForm } from "@/components/contact/ContactForm";
 import { createMetadata } from "@/lib/metadata";
 import { Mail, MessageSquare } from "lucide-react";
 
@@ -65,87 +66,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <form className="gradient-border rounded-2xl p-6 sm:p-8">
-              <div className="space-y-5">
-                <div>
-                  <label
-                    htmlFor="name"
-                    className="block text-sm font-medium text-slate-300"
-                  >
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    className="mt-2 w-full rounded-lg border border-white/10 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-slate-500 focus:border-violet-500/50 focus:outline-none focus:ring-1 focus:ring-violet-500/50"
-                    placeholder="Your name"
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="email"
-                    className="block text-sm font-medium text-slate-300"
-                  >
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className="mt-2 w-full rounded-lg border border-white/10 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-slate-500 focus:border-violet-500/50 focus:outline-none focus:ring-1 focus:ring-violet-500/50"
-                    placeholder="you@company.com"
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="subject"
-                    className="block text-sm font-medium text-slate-300"
-                  >
-                    Subject
-                  </label>
-                  <select
-                    id="subject"
-                    name="subject"
-                    className="mt-2 w-full rounded-lg border border-white/10 bg-white/5 px-4 py-2.5 text-sm text-white focus:border-violet-500/50 focus:outline-none focus:ring-1 focus:ring-violet-500/50"
-                  >
-                    <option value="general">General inquiry</option>
-                    <option value="pricing">Pricing &amp; plans</option>
-                    <option value="agency">Agency / enterprise</option>
-                    <option value="partnership">Partnership</option>
-                    <option value="support">Support</option>
-                  </select>
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium text-slate-300"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={5}
-                    required
-                    className="mt-2 w-full resize-none rounded-lg border border-white/10 bg-white/5 px-4 py-2.5 text-sm text-white placeholder:text-slate-500 focus:border-violet-500/50 focus:outline-none focus:ring-1 focus:ring-violet-500/50"
-                    placeholder="How can we help?"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full rounded-full bg-gradient-to-r from-violet-600 to-violet-500 px-6 py-3 text-sm font-medium text-white shadow-lg shadow-violet-500/25 transition-all hover:from-violet-500 hover:to-violet-400"
-                >
-                  Send Message
-                </button>
-              </div>
-            </form>
+            <ContactForm />
           </div>
         </Container>
       </section>

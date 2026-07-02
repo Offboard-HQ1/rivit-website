@@ -8,6 +8,7 @@ export const siteConfig = {
   url: "https://rivit.tech",
   appStoreUrl: "https://apps.apple.com/app/rivit",
   contactEmail: "support@rivit.tech",
+  formspreeEndpoint: "https://formspree.io/f/xgobqaoz",
   branding: {
     icon: "/icon.png",
     favicon: "/favicon.png",
