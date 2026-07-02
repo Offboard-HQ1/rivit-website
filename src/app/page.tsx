@@ -1,6 +1,7 @@
 import { Hero } from "@/components/home/Hero";
 import { ProblemSolution } from "@/components/home/ProblemSolution";
 import { HowItWorks } from "@/components/home/HowItWorks";
+import { AppShowcase } from "@/components/home/AppShowcase";
 import { FeaturesGrid } from "@/components/home/FeaturesGrid";
 import { Testimonials } from "@/components/home/Testimonials";
 import { FAQ } from "@/components/home/FAQ";
@@ -19,6 +20,7 @@ export default function HomePage() {
       <Hero />
       <ProblemSolution />
       <HowItWorks />
+      <AppShowcase />
       <FeaturesGrid />
       <Testimonials />
       <FAQ />

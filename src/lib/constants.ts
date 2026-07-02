@@ -209,3 +209,14 @@ export const aiTools = [
   "Replit",
   "Antigravity",
 ];
+
+/** App Store screenshots — files live in public/screenshots/ */
+export const appScreenshots: { src: string; alt: string }[] = [
+  { src: "/screenshots/01.png", alt: "Rivit app — screenshot 1" },
+  { src: "/screenshots/02.png", alt: "Rivit app — screenshot 2" },
+  { src: "/screenshots/03.png", alt: "Rivit app — screenshot 3" },
+  { src: "/screenshots/04.png", alt: "Rivit app — screenshot 4" },
+  { src: "/screenshots/05.png", alt: "Rivit app — screenshot 5" },
+  { src: "/screenshots/06.png", alt: "Rivit app — screenshot 6" },
+  { src: "/screenshots/07.png", alt: "Rivit app — screenshot 7" },
+];
