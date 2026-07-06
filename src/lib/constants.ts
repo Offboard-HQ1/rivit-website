@@ -6,7 +6,7 @@ export const siteConfig = {
   description:
     "Turn ideas into build-ready plans, execution roadmaps and AI prompts for Cursor, Claude, ChatGPT, Windsurf, Replit and Antigravity.",
   url: "https://rivit.tech",
-  appStoreUrl: "https://apps.apple.com/app/rivit",
+  appStoreUrl: "https://apps.apple.com/app/rivit/id6779803430",
   contactEmail: "support@rivit.tech",
   formspreeEndpoint: "https://formspree.io/f/xgobqaoz",
   branding: {
